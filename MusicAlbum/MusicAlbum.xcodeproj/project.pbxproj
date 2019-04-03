@@ -99,9 +99,12 @@
 		52226DFB2255214A00CAF3FC /* MusicAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				52226E3622552FCB00CAF3FC /* NetworkManager */,
+				52226E3422552FB700CAF3FC /* Model */,
+				52226E3222552FB700CAF3FC /* View */,
+				52226E3522552FB700CAF3FC /* ViewController */,
+				52226E3322552FB700CAF3FC /* ViewModel */,
 				52226DFC2255214A00CAF3FC /* AppDelegate.swift */,
-				52226DFE2255214A00CAF3FC /* ViewController.swift */,
-				52226E002255214A00CAF3FC /* Main.storyboard */,
 				52226E062255214C00CAF3FC /* Assets.xcassets */,
 				52226E082255214C00CAF3FC /* LaunchScreen.storyboard */,
 				52226E0B2255214C00CAF3FC /* Info.plist */,
@@ -126,6 +129,43 @@
 				52226E212255214C00CAF3FC /* Info.plist */,
 			);
 			path = MusicAlbumUITests;
+			sourceTree = "<group>";
+		};
+		52226E3222552FB700CAF3FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52226E002255214A00CAF3FC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52226E3322552FB700CAF3FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52226E3422552FB700CAF3FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52226E3522552FB700CAF3FC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52226DFE2255214A00CAF3FC /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		52226E3622552FCB00CAF3FC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
