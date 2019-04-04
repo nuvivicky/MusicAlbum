@@ -15,6 +15,9 @@
 		52226E0A2255214C00CAF3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52226E082255214C00CAF3FC /* LaunchScreen.storyboard */; };
 		52226E152255214C00CAF3FC /* MusicAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52226E142255214C00CAF3FC /* MusicAlbumTests.swift */; };
 		52226E202255214C00CAF3FC /* MusicAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52226E1F2255214C00CAF3FC /* MusicAlbumUITests.swift */; };
+		52226E382255391A00CAF3FC /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52226E372255391A00CAF3FC /* AlbumModel.swift */; };
+		52226E3A22553A4B00CAF3FC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52226E3922553A4B00CAF3FC /* DataManager.swift */; };
+		52226E3D22553F1D00CAF3FC /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52226E3C22553F1D00CAF3FC /* AlbumViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		52226E1B2255214C00CAF3FC /* MusicAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52226E1F2255214C00CAF3FC /* MusicAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumUITests.swift; sourceTree = "<group>"; };
 		52226E212255214C00CAF3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52226E372255391A00CAF3FC /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		52226E3922553A4B00CAF3FC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		52226E3C22553F1D00CAF3FC /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		52226DFB2255214A00CAF3FC /* MusicAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				52226E3B22553CF900CAF3FC /* Constants */,
 				52226E3622552FCB00CAF3FC /* NetworkManager */,
 				52226E3422552FB700CAF3FC /* Model */,
 				52226E3222552FB700CAF3FC /* View */,
@@ -142,6 +149,7 @@
 		52226E3322552FB700CAF3FC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				52226E3C22553F1D00CAF3FC /* AlbumViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 		52226E3422552FB700CAF3FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				52226E372255391A00CAF3FC /* AlbumModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,8 +173,16 @@
 		52226E3622552FCB00CAF3FC /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				52226E3922553A4B00CAF3FC /* DataManager.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		52226E3B22553CF900CAF3FC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52226E3D22553F1D00CAF3FC /* AlbumViewModel.swift in Sources */,
 				52226E052255214A00CAF3FC /* MusicAlbum.xcdatamodeld in Sources */,
+				52226E3A22553A4B00CAF3FC /* DataManager.swift in Sources */,
+				52226E382255391A00CAF3FC /* AlbumModel.swift in Sources */,
 				52226DFF2255214A00CAF3FC /* ViewController.swift in Sources */,
 				52226DFD2255214A00CAF3FC /* AppDelegate.swift in Sources */,
 			);
